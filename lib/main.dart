@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'screens/menu_screen.dart';
@@ -19,9 +18,7 @@ class PizzaStoreApp extends StatelessWidget {
       title: 'Pizza Store',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.orange,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
       initialRoute: '/menu',
