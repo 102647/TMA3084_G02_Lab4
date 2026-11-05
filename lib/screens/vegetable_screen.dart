@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class VegetableScreen extends StatelessWidget {
@@ -27,10 +26,7 @@ class VegetableScreen extends StatelessWidget {
               const SizedBox(height: 20),
               const Text(
                 'Vegetable Pizza',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 12),
               const Text(

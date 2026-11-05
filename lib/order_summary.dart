@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'order.dart';
 
 class OrderSummaryScreen extends StatelessWidget {
@@ -30,21 +31,12 @@ class OrderSummaryScreen extends StatelessWidget {
           children: [
             const Text(
               'Your Order',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
-            Text(
-              'Item: $itemName',
-              style: const TextStyle(fontSize: 18),
-            ),
+            Text('Item: $itemName', style: const TextStyle(fontSize: 18)),
             const SizedBox(height: 12),
-            Text(
-              'Quantity: $quantity',
-              style: const TextStyle(fontSize: 18),
-            ),
+            Text('Quantity: $quantity', style: const TextStyle(fontSize: 18)),
             const SizedBox(height: 12),
             Text(
               'Total Price: RM${total.toStringAsFixed(2)}',
